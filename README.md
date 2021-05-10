@@ -23,6 +23,9 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 13. Editar tag
 14. Gestionar diseño
 
+# Recursos
+- Dropbox ( Videos, screenshots etc)
+
 # Descripción de escenarios
 | Nombre                                         | Responsable      | Descripción| Feature | Nombre archivo|
 |-----------------------------------------------------|------------------|----------------------------------|-------------|-----|

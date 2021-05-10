@@ -3,6 +3,7 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 
 # Funcionalidades Bajo prueba
 | Nombre                                              | Responsable      | Número de escenarios por feature |
+|-----------------------------------------------------|------------------|----------------------------------| 
 | 1. Busqueda y acceso a recursos ( Post, tag, user)  | Albeiro Cuadrado | 4                                |
 | 2. Editar información perfil de usuario             | Albeiro Cuadrado | 1                                | 
 | 3. Crear post                                       |                  |                                  | 

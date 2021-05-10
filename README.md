@@ -27,13 +27,13 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 - Dropbox ( Videos, screenshots etc)
 
 # Descripción de escenarios
-| Nombre                                         | Responsable      | Descripción| Feature | Nombre archivo|
+| Descripción                                         | Responsable      | Columna por definir| Feature | Nombre archivo|
 |-----------------------------------------------------|------------------|----------------------------------|-------------|-----|
 | 1. Escenario positivo busqueda de post              | Albeiro Cuadrado |                              | Busqueda |search_post_OK.feature|
-| 2. Escenario negativo editar información usuario            | Albeiro Cuadrado |                              | Editar información perfil de usuario |edit_field_more_than_255.feature|
+| 2. Escenario negativo editar campo de información de usuario con más de 255 caracteres            | Albeiro Cuadrado |                              | Editar información perfil de usuario |edit_field_more_than_255.feature|
 | 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |                              | Busqueda |search_tag_OK.feature|
-| 4. Escenario negativo busqueda de post invalido            | Albeiro Cuadrado |                              | Busqueda |search_unexistent_post.feature|
-| 5. Editar información perfil de usuario             | Albeiro Cuadrado |                                 | Editar información perfil|edit_field_on_profile.feature|
+| 4. Escenario negativo busqueda de post inexistente            | Albeiro Cuadrado |                              | Busqueda |search_unexistent_post.feature|
+| 5. Escenario positivo editar información perfil de usuario             | Albeiro Cuadrado |                                 | Editar información perfil|edit_field_on_profile.feature|
 | 6. Crear post que se publique fecha posterior       | Giovanny Briceño |                                 | Crear post || 
 | 7. Editar post y despublicarlo                      | Giovanny Briceño |                                 | Editar post||
 | 8. Invitar usuario                                  | Cesar Chembi     |                                 | Invitar usuario|| 

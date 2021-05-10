@@ -8,13 +8,16 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 | 2. Editar información perfil de usuario             | Albeiro Cuadrado | 1                                | 
 | 3. Crear post que se publique fecha posterior       | Giovanny Briceño  | 1                                 | 
 | 4. Invitar usuario                                  | Cesar Chembi       | 1                                 | 
-| 5. Crear pagina                                     | Juan Camilo Acevedo |                                 | 
+| 5. Crear pagina                                     | Juan Camilo Acevedo | 1                                | 
 | 6. Crear tag                                        | Cesar Chembi     | 1                                 | 
 | 7. Eliminar tag                                     | Cesar Chembi     | 1                                 | 
-| 8. Borrar pagina                                    | Juan Camilo Acevedo|                                | 
+| 8. Borrar pagina                                    | Juan Camilo Acevedo| 1                               | 
 | 9. Revocar usuario invitado   | Cesar Chembi | 1                               | 
 | 10. Borrar el post mas reciente  | Giovanny Briceño | 1                               | 
-|                                   | **Total** |   **8**                             | 
+| 11. Adicionar un link de navegacion en Diseño  | Giovanny Briceño | 1                               | 
+| 12. Borrar un link de navegacion en Diseño  | Giovanny Briceño | 1                               | 
+| 13. Crear una integración  | Cesar Chembi | 1                               | 
+|                                   | **Total** |   **16**                             | 
 
 # Integrantes
 - ALBEIRO JOSE CUADRADO MACHADO (a.cuadrado@uniandes.edu.co)

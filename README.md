@@ -13,7 +13,7 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 |-----------------------------------------------------|------------------|----------------------------------| 
 | 1. Busqueda y acceso a recursos ( Post, tag, user)  | Albeiro Cuadrado | 4                                |
 | 2. Editar información perfil de usuario             | Albeiro Cuadrado | 1                                | 
-| 3. Crear post que se publique fecha posterior                                       | Giovanny Briceño                  | 1                                 | 
+| 3. Crear post                                     | Giovanny Briceño                  | 1                                 | 
 | 4. Invitar usuario                                  |                  |                                  | 
 | 5. Crear pagina                                     |Juan Camilo Acevedo|                                 | 
 | 6. Crear tag                                        | Cesar Chembi     |                                  | 
@@ -25,7 +25,7 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 # Descripción de escenarios bajo pruebas
 | Nombre                                              | Responsable      | Descripción|
 |-----------------------------------------------------|------------------|----------------------------------| 
-| 1.|  |  |
+| 1. Crear post que se publique fecha posterior | Giovany Briceño |  |
 | 2.|  |  |
 | 3.|  |  |
 | 4.|  |  |

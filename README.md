@@ -12,7 +12,7 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 | 6. Crear tag                                        | Cesar Chembi     |                                  | 
 | 7. Eliminar tag                                     | Cesar Chembi     |                                  | 
 | 8. Borrar pagina                                    | Juan Camilo Acevedo|                                | 
-
+|                                   | **Total** |   **5**                             | 
 
 # Integrantes
 - ALBEIRO JOSE CUADRADO MACHADO (a.cuadrado@uniandes.edu.co)

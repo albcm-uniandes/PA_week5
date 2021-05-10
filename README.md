@@ -24,13 +24,13 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 14. Gestionar diseño
 
 # Descripción de escenarios
-| Nombre                                         | Responsable      | Descripción| Feature | URL|
+| Nombre                                         | Responsable      | Descripción| Feature | Nombre archivo|
 |-----------------------------------------------------|------------------|----------------------------------|-------------|-----|
-| 1. Escenario positivo busqueda de post              | Albeiro Cuadrado |                              | Busqueda ||
-| 2. Escenario positivo busqueda de usuario             | Albeiro Cuadrado |                              | Busqueda ||
-| 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |                              | Busqueda ||
-| 4. Escenario negativo busqueda de post invalido            | Albeiro Cuadrado |                              | Busqueda ||
-| 5. Editar información perfil de usuario             | Albeiro Cuadrado |                                 | Editar información perfil||
+| 1. Escenario positivo busqueda de post              | Albeiro Cuadrado |                              | Busqueda |search_post-OK.feature|
+| 2. Escenario positivo busqueda de usuario             | Albeiro Cuadrado |                              | Busqueda |search_default_user.feature|
+| 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |                              | Busqueda |search_tag_OK.feature|
+| 4. Escenario negativo busqueda de post invalido            | Albeiro Cuadrado |                              | Busqueda |search_invalid_post.feature|
+| 5. Editar información perfil de usuario             | Albeiro Cuadrado |                                 | Editar información perfil|edit_field_on_profile.feature|
 | 6. Crear post que se publique fecha posterior       | Giovanny Briceño |                                 | Crear post || 
 | 7. Editar post y despublicarlo                      | Giovanny Briceño |                                 | Editar post||
 | 8. Invitar usuario                                  | Cesar Chembi     |                                 | Invitar usuario|| 

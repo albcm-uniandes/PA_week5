@@ -30,9 +30,9 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 | Nombre                                         | Responsable      | Descripción| Feature | Nombre archivo|
 |-----------------------------------------------------|------------------|----------------------------------|-------------|-----|
 | 1. Escenario positivo busqueda de post              | Albeiro Cuadrado |                              | Busqueda |search_post_OK.feature|
-| 2. Escenario positivo busqueda de usuario             | Albeiro Cuadrado |                              | Busqueda |search_default_user.feature|
+| 2. Escenario negativo editar información usuario            | Albeiro Cuadrado |                              | Editar información perfil de usuario |edit_field_more_than_255.feature|
 | 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |                              | Busqueda |search_tag_OK.feature|
-| 4. Escenario negativo busqueda de post invalido            | Albeiro Cuadrado |                              | Busqueda |search_invalid_post.feature|
+| 4. Escenario negativo busqueda de post invalido            | Albeiro Cuadrado |                              | Busqueda |search_unexistent_post.feature|
 | 5. Editar información perfil de usuario             | Albeiro Cuadrado |                                 | Editar información perfil|edit_field_on_profile.feature|
 | 6. Crear post que se publique fecha posterior       | Giovanny Briceño |                                 | Crear post || 
 | 7. Editar post y despublicarlo                      | Giovanny Briceño |                                 | Editar post||

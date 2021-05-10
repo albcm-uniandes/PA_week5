@@ -24,22 +24,25 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 14. Gestionar diseño
 
 # Descripción de escenarios
-| Descripción                                         | Responsable      | Columna para otro proposito | Feature | URL|
+| Nombre                                         | Responsable      | Descripción| Feature | URL|
 |-----------------------------------------------------|------------------|----------------------------------|-------------|-----|
-| 1. Escenario positivo busqueda de post              | Albeiro Cuadrado | 4                                | Busqueda ||
-| 2. Editar información perfil de usuario             | Albeiro Cuadrado | 1                                | Editar información perfil||
-| 3. Crear post que se publique fecha posterior       | Giovanny Briceño | 1                                | Crear post || 
-| 4. Editar post y despublicarlo                      | Giovanny Briceño | 1                                | Editar post||
-| 5. Invitar usuario                                  | Cesar Chembi     | 1                                | Invitar usuario|| 
-| 6. Crear pagina                                     | Juan Camilo Acevedo | 1                             | Crear pagina|| 
-| 7. Crear tag                                        | Cesar Chembi     | 1                                | Crear Tag|| 
-| 8. Eliminar tag                                     | Cesar Chembi     | 1                                | Eliminar tag || 
-| 9. Borrar pagina                                    | Juan Camilo Acevedo| 1                              | Borrar pagina|| 
-| 10. Borrar el post mas reciente                     | Giovanny Briceño | 1                                | Borrar post ||
-| 11. Adicionar un link de navegacion en Diseño       | Giovanny Briceño | 1                                | Gestionar diseño |           | 
-| 12. Borrar un link de navegacion en Diseño          | Giovanny Briceño | 1                                |Gestionar diseño|       | 
-| 13. Crear una integración                           | Cesar Chembi     | 1                               | Crear integración||
-| 14. Editar Tag y publicarlo                         | Cesar Chembi     | 1                               | Editar tag|| 
+| 1. Escenario positivo busqueda de post              | Albeiro Cuadrado |                              | Busqueda ||
+| 2. Escenario positivo busqueda de usuario             | Albeiro Cuadrado |                              | Busqueda ||
+| 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |                              | Busqueda ||
+| 4. Escenario negativo busqueda de post invalido            | Albeiro Cuadrado |                              | Busqueda ||
+| 5. Editar información perfil de usuario             | Albeiro Cuadrado |                                 | Editar información perfil||
+| 6. Crear post que se publique fecha posterior       | Giovanny Briceño |                                 | Crear post || 
+| 7. Editar post y despublicarlo                      | Giovanny Briceño |                                 | Editar post||
+| 8. Invitar usuario                                  | Cesar Chembi     |                                 | Invitar usuario|| 
+| 9. Crear pagina                                     | Juan Camilo Acevedo |                              | Crear pagina|| 
+| 10. Crear tag                                        | Cesar Chembi     |                                 | Crear Tag|| 
+| 11. Eliminar tag                                     | Cesar Chembi     |                                 | Eliminar tag || 
+| 12. Borrar pagina                                    | Juan Camilo Acevedo|                               | Borrar pagina|| 
+| 13. Borrar el post mas reciente                     | Giovanny Briceño |                                 | Borrar post ||
+| 14. Adicionar un link de navegacion en Diseño       | Giovanny Briceño |                                 | Gestionar diseño |           | 
+| 15. Borrar un link de navegacion en Diseño          | Giovanny Briceño |                                 |Gestionar diseño|       | 
+| 16. Crear una integración                           | Cesar Chembi     |                                | Crear integración||
+| 17. Editar Tag y publicarlo                         | Cesar Chembi     |                                | Editar tag|| 
 
 
 

@@ -14,7 +14,7 @@ if ENV["ADB_DEVICE_ARG"].nil?
     sleep 2
   end
 
-  # Created by Albeiro Cuadrado M 
+  # Modified by Albeiro Cuadrado:
   
   When(/^I'm into the dashaboard admin$/) do
     sleep 1
@@ -34,4 +34,5 @@ if ENV["ADB_DEVICE_ARG"].nil?
     sleep 1
     @driver.current_url() == text
   end
+
 end

@@ -6,12 +6,13 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 |-----------------------------------------------------|------------------|----------------------------------| 
 | 1. Busqueda y acceso a recursos ( Post, tag, user)  | Albeiro Cuadrado | 4                                |
 | 2. Editar información perfil de usuario             | Albeiro Cuadrado | 1                                | 
-| 3. Crear post                                       |                  |                                  | 
+| 3. Crear post que se publique fecha posterior                                       | Giovanny Briceño                  | 1                                 | 
 | 4. Invitar usuario                                  |                  |                                  | 
 | 5. Crear pagina                                     |Juan Camilo Acevedo|                                 | 
 | 6. Crear tag                                        | Cesar Chembi     |                                  | 
 | 7. Eliminar tag                                     | Cesar Chembi     |                                  | 
 | 8. Borrar pagina                                    | Juan Camilo Acevedo|                                | 
+| 9. Borrar pagina                                    | Juan Camilo Acevedo|                                | 
 |                                   | **Total** |   **5**                             | 
 
 # Integrantes

@@ -36,16 +36,16 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 | 5. Escenario positivo editar información perfil de usuario             | Albeiro Cuadrado |                                 | Editar información perfil|edit_field_on_profile.feature|
 | 6. Crear post que se publique fecha posterior       | Giovanny Briceño |                                 | Crear post || 
 | 7. Editar post y despublicarlo                      | Giovanny Briceño |                                 | Editar post||
-| 8. Invitar usuario                                  | Cesar Chembi     |                                 | Invitar usuario|| 
+| 8. Invitar usuario                                  | Cesar Chembi     |                                 | Invitar usuario|Invitar_Nuevo_Usuario.feature Invitar_Nuevo_Usuario.js| 
 | 9. Crear pagina que se publique inmediatamente      | Juan Camilo Acevedo |                              | Crear pagina|pagina.feature| 
-| 10. Crear tag                                        | Cesar Chembi     |                                 | Crear Tag|| 
-| 11. Eliminar tag                                     | Cesar Chembi     |                                 | Eliminar tag || 
+| 10. Crear tag                                        | Cesar Chembi     |                                 | Crear Tag|Crear_Tag.feature Crear_Tag.js| 
+| 11. Eliminar tag                                     | Cesar Chembi     |                                 | Eliminar tag |Borrar_Tag.feature Borrar_Tag.js| 
 | 12. Borrar pagina                                    | Juan Camilo Acevedo|                               | Borrar pagina|eliminarPagina.feature| 
 | 13. Borrar el post mas reciente                     | Giovanny Briceño |                                 | Borrar post ||
 | 14. Adicionar un link de navegacion en Diseño       | Giovanny Briceño |                                 | Gestionar diseño |           | 
 | 15. Borrar un link de navegacion en Diseño          | Giovanny Briceño |                                 |Gestionar diseño|       | 
-| 16. Crear una integración                           | Cesar Chembi     |                                | Crear integración||
-| 17. Editar Tag y publicarlo                         | Cesar Chembi     |                                | Editar tag|| 
+| 16. Crear una integración                           | Cesar Chembi     |                                | Crear integración|Crear_Integracion.feature Crear_Integracion.js|
+| 17. Editar Tag y publicarlo                         | Cesar Chembi     |                                | Editar tag|Editar_Publicar_Tag.feature Editar_Publicar_Tag.js| 
 
 
 

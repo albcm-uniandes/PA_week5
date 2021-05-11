@@ -58,6 +58,17 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 | 19. Editar el lenguaje de publicación               | Juan Camilo Acevedo     | Gestionar diseño | publicationLanguaje.js|
 
 
+# Como ejecutar este ejercicio para KRAKEN
+## Pasos previos
+1. Haber realizado la instalación de KRAKEN ver https://github.com/TheSoftwareDesignLab/KrakenMobile
 
+## Pasos
+1. Ir a la carpeta kraken que se encuentra en la raiz de este repositorio 
+2. Descargar el archivo .feature que desea evaluar
+3. Despues de haber hecho el setup del proyecto de kraken, incluir el archivo .feature a testear dentro del directorio /features
+4. Agregar el contenido del archivo __web_steps.rb__, desde donde obtuvo el archivo .feature a testear (desde el repositorio) y remplace el contenido por el archivo que contiene el mismo nombre en la ruta donde se realizó el setup del proyecto kraken  /features/web/step_definitions/web_steps.rb
+5. escriba el siguiente comando en una terminal ubicado en la carpeta raiz del proyecto creado __bundle exec kraken-mobile run__
+
+ 
  
 

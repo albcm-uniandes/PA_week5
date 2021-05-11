@@ -34,15 +34,15 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 | 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |                              | Busqueda |search_tag_OK.feature|
 | 4. Escenario negativo busqueda de post inexistente            | Albeiro Cuadrado |                              | Busqueda |search_unexistent_post.feature|
 | 5. Escenario positivo editar información perfil de usuario             | Albeiro Cuadrado |                                 | Editar información perfil|edit_field_on_profile.feature|
-| 6. Crear post que se publique fecha posterior       | Giovanny Briceño |                                 | Crear post || 
-| 7. Editar post y despublicarlo                      | Giovanny Briceño |                                 | Editar post||
+| 6. Crear post que se publique fecha posterior       | Giovanny Briceño | g_crearpost_pb.spec.js                                 | Crear post || 
+| 7. Editar post y despublicarlo                      | Giovanny Briceño | g_despublicarpost.spec.js                                 | Editar post||
 | 8. Invitar usuario                                  | Cesar Chembi     |                                 | Invitar usuario|Invitar_Nuevo_Usuario.feature Invitar_Nuevo_Usuario.js| 
 | 9. Crear pagina que se publique inmediatamente      | Juan Camilo Acevedo |                              | Crear pagina|pagina.feature| 
 | 10. Crear tag                                        | Cesar Chembi     |                                 | Crear Tag|Crear_Tag.feature Crear_Tag.js| 
 | 11. Eliminar tag                                     | Cesar Chembi     |                                 | Eliminar tag |Borrar_Tag.feature Borrar_Tag.js| 
 | 12. Borrar pagina                                    | Juan Camilo Acevedo|                               | Borrar pagina|eliminarPagina.feature| 
-| 13. Borrar el post mas reciente                     | Giovanny Briceño |                                 | Borrar post ||
-| 14. Adicionar un link de navegacion en Diseño       | Giovanny Briceño |                                 | Gestionar diseño |           | 
+| 13. Borrar el post publicado más reciente                     | Giovanny Briceño | g_borrarpost.spec.js                                 | Borrar post ||
+| 14. Adicionar un link de navegacion en Diseño       | Giovanny Briceño | g_adicionarLinkNavegar.js                                | Gestionar diseño |           | 
 | 15. Borrar un link de navegacion en Diseño          | Giovanny Briceño |                                 |Gestionar diseño|       | 
 | 16. Crear una integración                           | Cesar Chembi     |                                | Crear integración|Crear_Integracion.feature Crear_Integracion.js|
 | 17. Editar Tag y publicarlo                         | Cesar Chembi     |                                | Editar tag|Editar_Publicar_Tag.feature Editar_Publicar_Tag.js| 

@@ -7,21 +7,29 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 - CESAR ALBERTO CHEMBI VERGARA (c.chembi@uniandes.edu.co)
 - GIOVANNY ALEXANDER BRICEÑO RIVEROS (g.briceno@uniandes.edu.co)
 
+
 # Funcionalidades Bajo prueba
+
 1. Busqueda
-2. Editar información perfil
-3. Crear post
-4. Editar Post
-5. Invitar Usuario
-6. Crear pagina
-7. Crear tag
-8. Editar tag
-9. Eliminar tag
-10. Borrar pagina
-11. Borrar post
-12. Crear integración
-13. Editar tag
-14. Gestionar diseño
+- Permite buscar recursos como posts, users y tags dentro del dashboard administativo
+
+2. Gestionar post
+- Permite utilizar la funcionalidad core del sistema crear, editar, eliminar post
+
+3. Gestion de staff
+- Permite editar la información basica de los perfiles del sistema e invitar a usuarios a gestionar el sitio, con diferentes roles.
+
+4. Gestionar pagina
+- Permite al creador de contenido y administrador crear, editar o eliminar paginas en el sitio
+
+5. Gestionar tag
+- Permite crear, editar, eliminar etiquetas para posteriormente añadirlos a los post
+
+6. Crear integración
+- Permite crear integraciones con  software de terceros a nuestro sitio
+
+7. Gestionar diseño
+- Permite personalizar mediante esta funcionalidad el diseño del sitio
 
 # Recursos
 Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9cuwu6du/AABgVKLmjXEsf8HLtPvB7dPja?dl=0

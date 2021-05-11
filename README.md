@@ -37,10 +37,10 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 | 6. Crear post        | Giovanny Briceño |                                  | Crear post que se publique fecha posterior | g_crearpost_pb.spec.js| 
 | 7. Despublicar post                       | Giovanny Briceño |                                  | Editar post y despublicar | g_despublicarpost.spec.js|
 | 8. Invitar usuario                                  | Cesar Chembi     |                                 | Invitar usuario|Invitar_Nuevo_Usuario.feature Invitar_Nuevo_Usuario.js| 
-| 9. Crear pagina que se publique inmediatamente      | Juan Camilo Acevedo |                              | Crear pagina|pagina.feature| 
+| 9. Crear pagina       | Juan Camilo Acevedo |                              | Crear pagina que se publique inmediatamente|pagina.feature Crear_pagina.js| 
 | 10. Crear tag                                        | Cesar Chembi     |                                 | Crear Tag|Crear_Tag.feature Crear_Tag.js| 
 | 11. Eliminar tag                                     | Cesar Chembi     |                                 | Eliminar tag |Borrar_Tag.feature Borrar_Tag.js| 
-| 12. Borrar pagina                                    | Juan Camilo Acevedo|                               | Borrar pagina|eliminarPagina.feature| 
+| 12. Borrar pagina                                    | Juan Camilo Acevedo|                               | Borrar pagina|eliminarPagina.feature Eliminar_pagina.js| 
 | 13. Borrar el post                      | Giovanny Briceño |                                  | Borrar post publicado más reciente | g_borrarpost.spec.js borrarpost.feature|
 | 14. Gestionar diseño       | Giovanny Briceño |                                 | Adicionar un link de navegación al Diseño | g_adicionarLinkNavegar.js           | 
 | 15. Gestionar diseño          | Giovanny Briceño |                                 |Borrar un link de navegacion en Diseño|       | 

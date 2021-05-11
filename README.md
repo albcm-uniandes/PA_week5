@@ -69,6 +69,8 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 4. Agregar el contenido del archivo __web_steps.rb__, desde donde obtuvo el archivo .feature a testear (desde el repositorio) y remplace el contenido por el archivo que contiene el mismo nombre en la ruta donde se realizó el setup del proyecto kraken  /features/web/step_definitions/web_steps.rb
 5. escriba el siguiente comando en una terminal ubicado en la carpeta raiz del proyecto creado __bundle exec kraken-mobile run__
 
- 
+# Como ejecutar este ejercicio para Cypress
+- Ubiquese dentro del directorio __/cypress__ de este repositorio
+- Leer archivo readme.txt, ubicado en el directorio de cada uno de los integrantes de la actividad
  
 

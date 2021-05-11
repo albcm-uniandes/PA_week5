@@ -16,7 +16,7 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 2. Gestionar post
 - Permite utilizar la funcionalidad core del sistema crear, editar, eliminar post
 
-3. Gestion de staff
+3. Gestionar staff
 - Permite editar la información basica de los perfiles del sistema e invitar a usuarios a gestionar el sitio, con diferentes roles.
 
 4. Gestionar pagina
@@ -35,25 +35,25 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9cuwu6du/AABgVKLmjXEsf8HLtPvB7dPja?dl=0
 
 # Descripción de escenarios
-| Descripción                                         | Responsable      | Columna por definir| Feature | Nombre archivo|
-|-----------------------------------------------------|------------------|----------------------------------|-------------|-----|
-| 1. Escenario positivo busqueda de post              | Albeiro Cuadrado |                              | Busqueda |search_post_OK.feature|
-| 2. Escenario negativo editar campo de información de usuario con más de 255 caracteres            | Albeiro Cuadrado |                              | Editar información perfil de usuario |edit_field_more_than_255.feature|
-| 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |                              | Busqueda |search_tag_OK.feature|
-| 4. Escenario negativo busqueda de post inexistente            | Albeiro Cuadrado |                              | Busqueda |search_unexistent_post.feature|
-| 5. Escenario positivo editar información perfil de usuario             | Albeiro Cuadrado |                                 | Editar información perfil|edit_field_on_profile.feature|
-| 6. Crear post que se publique fecha posterior        | Giovanny Briceño |                                  | Crear posts  | g_crearpost_pb.spec.js| 
-| 7. De la lista de posts publicados, despublicar un posts                       | Giovanny Briceño |                                  | Editar post  | g_despublicarpost.spec.js|
-| 8. Invitar usuario                                  | Cesar Chembi     |                                 | Invitar usuario|Invitar_Nuevo_Usuario.feature Invitar_Nuevo_Usuario.js| 
-| 9. Crear pagina       | Juan Camilo Acevedo |                              | Crear pagina que se publique inmediatamente|pagina.feature Crear_pagina.js| 
-| 10. Crear tag                                        | Cesar Chembi     |                                 | Crear Tag|Crear_Tag.feature Crear_Tag.js| 
-| 11. Eliminar tag                                     | Cesar Chembi     |                                 | Eliminar tag |Borrar_Tag.feature Borrar_Tag.js| 
-| 12. Borrar pagina                                    | Juan Camilo Acevedo|                               | Borrar pagina|eliminarPagina.feature Eliminar_pagina.js| 
-| 13. Borrar post de la lista de publicados, el más reciente                      | Giovanny Briceño |                                  | Borrar el post  | g_borrarpost.spec.js borrarpost.feature|
-| 14. Adicionar un link de navegación al Diseño       | Giovanny Briceño |                                 | Gestionar diseño  | g_adicionarLinkNavegar.js           | 
-| 15. Borrar un link de navegacion en la zona de Diseño           | Giovanny Briceño |                                 |Gestionar diseño|       | 
-| 16. Crear una integración                           | Cesar Chembi     |                                | Crear integración|Crear_Integracion.feature Crear_Integracion.js|
-| 17. Editar Tag y publicarlo                         | Cesar Chembi     |                                | Editar tag|Editar_Publicar_Tag.feature Editar_Publicar_Tag.js| 
+| Descripción                                         | Responsable      | Feature | Nombre archivo|
+|-----------------------------------------------------|------------------|-------------|-----|
+| 1. Escenario positivo busqueda de post              | Albeiro Cuadrado |  Busqueda |search_post_OK.feature|
+| 2. Escenario negativo editar campo de información de usuario con más de 255 caracteres | Albeiro Cuadrado | Gestionar staff |edit_field_more_than_255.feature|
+| 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |   Busqueda |search_tag_OK.feature|
+| 4. Escenario negativo busqueda de post inexistente            | Albeiro Cuadrado |  Busqueda |search_unexistent_post.feature|
+| 5. Escenario positivo editar información perfil de usuario             | Albeiro Cuadrado |  Gestionar staff |edit_field_on_profile.feature|
+| 6. Crear post que se publique fecha posterior        | Giovanny Briceño |   Gestionar posts  | g_crearpost_pb.spec.js| 
+| 7. De la lista de posts publicados, despublicar un posts                       | Giovanny Briceño |   Gestionar post  | g_despublicarpost.spec.js|
+| 8. Invitar usuario                                  | Cesar Chembi     |  Gestionar staff|Invitar_Nuevo_Usuario.feature Invitar_Nuevo_Usuario.js| 
+| 9.  Crear pagina que se publique inmediatamente      | Juan Camilo Acevedo |   Gestionar pagina |pagina.feature Crear_pagina.js| 
+| 10. Crear tag                                        | Cesar Chembi     |     Gestionar tag |Crear_Tag.feature Crear_Tag.js| 
+| 11. Eliminar tag                                     | Cesar Chembi     |   Gestionar tag |Borrar_Tag.feature Borrar_Tag.js| 
+| 12. Borrar pagina                                    | Juan Camilo Acevedo|  Gestionar pagina|eliminarPagina.feature Eliminar_pagina.js| 
+| 13. Borrar post de la lista de publicados, el más reciente    | Giovanny Briceño |  Gestionar post  | g_borrarpost.spec.js borrarpost.feature|
+| 14. Adicionar un link de navegación al Diseño       | Giovanny Briceño |   Gestionar diseño  | g_adicionarLinkNavegar.js           | 
+| 15. Borrar un link de navegacion en la zona de Diseño           | Giovanny Briceño |  Gestionar diseño|       | 
+| 16. Crear una integración                           | Cesar Chembi     |     Crear integración|Crear_Integracion.feature Crear_Integracion.js|
+| 17. Editar Tag y publicarlo                         | Cesar Chembi     |    Gestionar tag|Editar_Publicar_Tag.feature Editar_Publicar_Tag.js| 
 
 
 

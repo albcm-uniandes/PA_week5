@@ -41,7 +41,7 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 | 10. Crear tag                                        | Cesar Chembi     |                                 | Crear Tag|Crear_Tag.feature Crear_Tag.js| 
 | 11. Eliminar tag                                     | Cesar Chembi     |                                 | Eliminar tag |Borrar_Tag.feature Borrar_Tag.js| 
 | 12. Borrar pagina                                    | Juan Camilo Acevedo|                               | Borrar pagina|eliminarPagina.feature| 
-| 13. Borrar el post                      | Giovanny Briceño |                                  | Borrar post publicado más reciente | g_borrarpost.spec.js|
+| 13. Borrar el post                      | Giovanny Briceño |                                  | Borrar post publicado más reciente | g_borrarpost.spec.js borrarpost.feature|
 | 14. Gestionar diseño       | Giovanny Briceño |                                 | Adicionar un link de navegación al Diseño | g_adicionarLinkNavegar.js           | 
 | 15. Gestionar diseño          | Giovanny Briceño |                                 |Borrar un link de navegacion en Diseño|       | 
 | 16. Crear una integración                           | Cesar Chembi     |                                | Crear integración|Crear_Integracion.feature Crear_Integracion.js|

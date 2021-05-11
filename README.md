@@ -24,7 +24,7 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 14. Gestionar diseño
 
 # Recursos
-- Dropbox ( Videos, screenshots etc)
+Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9cuwu6du/AABgVKLmjXEsf8HLtPvB7dPja?dl=0
 
 # Descripción de escenarios
 | Descripción                                         | Responsable      | Columna por definir| Feature | Nombre archivo|

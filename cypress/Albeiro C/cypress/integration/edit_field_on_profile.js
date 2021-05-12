@@ -3,7 +3,7 @@ const util = require('../login.js')
 
 const cookieSessionName = Cypress.env('cookieSessionName') || "ghost-admin-api-session"
 
-context('Editar Invitacion', () => {
+context('Editar location en el perfil', () => {
     before(() => {
         util.login();
     })

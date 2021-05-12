@@ -27,13 +27,6 @@ context('Editar location en el perfil', () => {
 
                 cy.wait(2000)
             })
-
-        cy.get('section.view-actions').within( () => {
-            cy.get('button.gh-btn.gh-btn-blue.gh-btn-icon.ember-view')
-                .within(() => {
-                    cy.get('span').should('be.visible')
-                })
-        })
     })
 
     it('Introducir datos de location', () => {

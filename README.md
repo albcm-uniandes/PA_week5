@@ -37,10 +37,10 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 # Descripción de escenarios
 | Descripción                                         | Responsable      | Feature | Nombre archivo|
 |-----------------------------------------------------|------------------|-------------|-----|
-| 1. Escenario positivo busqueda de post              | Albeiro Cuadrado |  Busqueda |search_post_OK.feature|
-| 2. Escenario negativo editar campo de información de usuario con más de 255 caracteres | Albeiro Cuadrado | Gestionar staff |edit_field_more_than_255.feature|
-| 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |   Busqueda |search_tag_OK.feature|
-| 4. Escenario negativo busqueda de post inexistente            | Albeiro Cuadrado |  Busqueda |search_unexistent_post.feature|
+| 1. Escenario positivo busqueda de post              | Albeiro Cuadrado |  Busqueda |search_post_OK.feature search_post_OK.js|
+| 2. Escenario negativo editar campo de información de usuario con más de 255 caracteres | Albeiro Cuadrado | Gestionar staff |edit_field_more_than_255.feature edit_field_more_than_255.js|
+| 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |   Busqueda |search_tag_OK.feature search_tag_OK.js|
+| 4. Escenario negativo busqueda de post inexistente            | Albeiro Cuadrado |  Busqueda |search_unexistent_post.feature search_unexistent_post.js|
 | 5. Escenario positivo editar información perfil de usuario             | Albeiro Cuadrado |  Gestionar staff |edit_field_on_profile.feature edit_field_on_profile.js|
 | 6. Crear post que se publique fecha posterior        | Giovanny Briceño |   Gestionar posts  | g_crearpost_pb.spec.js| 
 | 7. De la lista de posts publicados, despublicar un posts                       | Giovanny Briceño |   Gestionar post  | g_despublicarpost.spec.js|

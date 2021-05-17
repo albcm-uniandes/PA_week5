@@ -1,5 +1,6 @@
 const baseUrl = Cypress.config('baseUrl') || "http://localhost:2368/ghost"
 const util = require('../login.js')
+const funciones = require('../funciones')
 
 const cookieSessionName = Cypress.env('cookieSessionName') || "ghost-admin-api-session"
 
@@ -16,6 +17,7 @@ context('Editar location en el perfil', () => {
         cy.visit(`${baseUrl}/#/staff`)
         cy.wait(2000)  
         cy.url().should('eq', `${baseUrl}/#/staff`)
+        funciones.screenshot('g_editar location perfil')
     })
 
     it('Abrir pagina de edicion', () => {
@@ -27,6 +29,8 @@ context('Editar location en el perfil', () => {
 
                 cy.wait(2000)
             })
+        funciones.screenshot('g_editar location perfil')
+
     })
 
     it('Introducir datos de location', () => {
@@ -34,6 +38,8 @@ context('Editar location en el perfil', () => {
             cy.get('input[id="user-location"]')
                 .type("Testing", {force: true})
         })
+        funciones.screenshot('g_editar location perfil')
+
     })
 
     it('Guardar cambios', () => {
@@ -41,5 +47,7 @@ context('Editar location en el perfil', () => {
             cy.get('button.gh-btn.gh-btn-blue.gh-btn-icon.ember-view').click()
             cy.wait(2000)
          })
+         funciones.screenshot('g_editar location perfil')
+
     })
 })

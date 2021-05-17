@@ -64,8 +64,8 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 1. Haber realizado la instalación de KRAKEN ver https://github.com/TheSoftwareDesignLab/KrakenMobile
 
 ## Pasos
-1. Ir a la carpeta kraken que se encuentra en la raiz de este repositorio 
-2. escriba el siguiente comando en una terminal ubicado en la carpeta raiz del proyecto creado __bundle exec kraken-mobile run__
+1. Copiar la carpeta carpeta kraken/proyecto, dentro de la carpeta raiz donde realizó el setup de kraken
+3. escriba el siguiente comando en una terminal ubicado en la carpeta raiz del proyecto creado __bundle exec kraken-mobile run__
 
 # Como ejecutar este ejercicio para Cypress
 ## Pasos previos

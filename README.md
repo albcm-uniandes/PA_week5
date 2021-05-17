@@ -57,6 +57,8 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 | 18. Renombrar titulo del sitio                      | Juan Camilo Acevedo     | Gestionar diseño | renameSite.feature renameSite.js|
 | 19. Editar el lenguaje de publicación               | Juan Camilo Acevedo     | Gestionar diseño | publicationLanguaje.feature publicationLanguaje.js|
 | 20. Editar zona horaria                             | Juan Camilo Acevedo     | Gestionar diseño | siteTimeZone.js|
+| 21. Editar redes sociales                           | Juan Camilo Acevedo     | Gestionar diseño | socialAccounts.js|
+| 22. Convertir en privado el sitio                   | Juan Camilo Acevedo     | Gestionar diseño | private.feature private.js|
 
 
 # Como ejecutar este ejercicio para KRAKEN

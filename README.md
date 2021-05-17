@@ -42,7 +42,7 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 | 3. Escenario positivo busqueda de tag             | Albeiro Cuadrado |   Busqueda |search_tag_OK.feature search_tag_OK.js|
 | 4. Escenario negativo busqueda de post inexistente            | Albeiro Cuadrado |  Busqueda |search_unexistent_post.feature search_unexistent_post.js|
 | 5. Escenario positivo editar información perfil de usuario             | Albeiro Cuadrado |  Gestionar staff |edit_field_on_profile.feature edit_field_on_profile.js|
-| 6. Crear post que se publique fecha posterior        | Giovanny Briceño |   Gestionar posts  | g_crearpost_pb.spec.js| 
+| 6. Crear post que se publique fecha posterior        | Giovanny Briceño |   Gestionar posts  | g_crearpost_pb.spec.js g3.30.0crearpost_pb.feature| 
 | 7. De la lista de posts publicados, despublicar un posts                       | Giovanny Briceño |   Gestionar post  | g_despublicarpost.spec.js|
 | 8. Invitar usuario                                  | Cesar Chembi     |  Gestionar staff|Invitar_Nuevo_Usuario.feature Invitar_Nuevo_Usuario.js| 
 | 9.  Crear pagina que se publique inmediatamente      | Juan Camilo Acevedo |   Gestionar pagina |pagina.feature Crear_pagina.js| 
@@ -51,26 +51,43 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 | 12. Borrar pagina                                    | Juan Camilo Acevedo|  Gestionar pagina|eliminarPagina.feature Eliminar_pagina.js| 
 | 13. Borrar post de la lista de publicados, el más reciente    | Giovanny Briceño |  Gestionar post  | g_borrarpost.spec.js borrarpost.feature|
 | 14. Adicionar un link de navegación al Diseño       | Giovanny Briceño |   Gestionar diseño  | g_adicionarLinkNavegar.js           | 
-| 15. Borrar un link de navegacion en la zona de Diseño           | Giovanny Briceño |  Gestionar diseño|       | 
+| 15. Crear Posts adicionando link youtube           | Giovanny Briceño |  Gestionar diseño| g2_crearpost_youtube.spec.js       | 
 | 16. Crear una integración                           | Cesar Chembi     |     Crear integración|Crear_Integracion.feature Crear_Integracion.js|
 | 17. Editar Tag y publicarlo                         | Cesar Chembi     |    Gestionar tag|Editar_Publicar_Tag.feature Editar_Publicar_Tag.js| 
-| 18. Renombrar titulo del sitio                      | Juan Camilo Acevedo     | Gestionar diseño | renameSite.js|
-| 19. Editar el lenguaje de publicación               | Juan Camilo Acevedo     | Gestionar diseño | publicationLanguaje.js|
+| 18. Renombrar titulo del sitio                      | Juan Camilo Acevedo     | Gestionar diseño | renameSite.feature renameSite.js|
+| 19. Editar el lenguaje de publicación               | Juan Camilo Acevedo     | Gestionar diseño | publicationLanguaje.feature publicationLanguaje.js|
+| 20. Editar zona horaria                             | Juan Camilo Acevedo     | Gestionar diseño | siteTimeZone.js|
+| 21. Editar redes sociales                           | Juan Camilo Acevedo     | Gestionar diseño | socialAccounts.js|
+| 22. Convertir en privado el sitio                   | Juan Camilo Acevedo     | Gestionar diseño | private.feature private.js|
 
 
 # Como ejecutar este ejercicio para KRAKEN
 ## Pasos previos
 1. Haber realizado la instalación de KRAKEN ver https://github.com/TheSoftwareDesignLab/KrakenMobile
+2. Tener instalado las versiones adecuadas de Ghost
+3. Ejecutar la versión correspondiente de Ghost ingreseando al archivo del proyecto y ejecutar al comando ghost start
+Por ejemplo para GHOST 3.3 ingresar a la carpeta usando el comando "cd ghost33" y luego dar la instrucción "ghost start"
 
 ## Pasos
-1. Ir a la carpeta kraken que se encuentra en la raiz de este repositorio 
-2. Descargar el archivo .feature que desea evaluar
-3. Despues de haber hecho el setup del proyecto de kraken, incluir el archivo .feature a testear dentro del directorio /features
-4. Agregar el contenido del archivo __web_steps.rb__, desde donde obtuvo el archivo .feature a testear (desde el repositorio) y remplace el contenido por el archivo que contiene el mismo nombre en la ruta donde se realizó el setup del proyecto kraken  /features/web/step_definitions/web_steps.rb
-5. escriba el siguiente comando en una terminal ubicado en la carpeta raiz del proyecto creado __bundle exec kraken-mobile run__
+1. Copiar la carpeta carpeta kraken/proyecto, dentro de la carpeta raiz donde realizó el setup de kraken
+2. Escriba el siguiente comando en una terminal ubicado en la carpeta raiz del proyecto creado __bundle exec kraken-mobile run__
 
 # Como ejecutar este ejercicio para Cypress
-- Ubiquese dentro del directorio __/cypress__ de este repositorio
-- Leer archivo readme.txt, ubicado en el directorio de cada uno de los integrantes de la actividad
+## Pasos previos
+1. Haber realizado la instalación de CYPRESS ver https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
+2. Tener instalado las versiones adecuadas de Ghost
+3. Ejecutar la versión correspondiente de Ghost ingreseando al archivo del proyecto y ejecutar al comando ghost start
+Por ejemplo para GHOST 3.3 ingresar a la carpeta usando el comando "cd ghost33" y luego dar la instrucción "ghost start"
+
+## Pasos
+1. Ubiquese dentro del directorio __/cypress__ de este repositorio
+2. Ejecutar en una terminal el comando  __cypress run --headed__
  
 
+# Pruebas de regresión visual
+Las pruebas efectuadas en la regresion visual son 
+- BUSCAR POST
+- CREAR POSTS YOUTUBE
+- INVITAR NUEVO USUARIO
+- RENOMBRAR SITIO
+- CAMBIAR ZONA HORARIA

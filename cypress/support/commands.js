@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('autenticar', () => {
+	cy.get('form').within(() => {
+		cy.get('input[name="identification"]').type(Cypress.env('username'))
+		cy.get('input[name="password"]').type(Cypress.env('password'))
+		cy.get('button[id=ember12]').click()
+		cy.wait(1000)
+			
+    })
+ })

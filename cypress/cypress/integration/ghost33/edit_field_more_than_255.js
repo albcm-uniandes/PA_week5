@@ -22,6 +22,8 @@ context("Editar location en el perfil con más de 255 caracteres", () => {
     cy.visit(`${baseUrl}/#/staff`);
     cy.wait(2000);
     cy.url().should("eq", `${baseUrl}/#/staff`);
+    funciones.screenshot('g_editar location perfil mas de 255')
+
   });
 
   it("Abrir pagina de edicion", () => {
@@ -29,6 +31,8 @@ context("Editar location en el perfil con más de 255 caracteres", () => {
       cy.get("a").first().click({ force: true });
 
       cy.wait(2000);
+      funciones.screenshot('g_editar location perfil mas de 255')
+
     });
   });
 
@@ -39,6 +43,8 @@ context("Editar location en el perfil con más de 255 caracteres", () => {
         { force: true }
       );
     });
+    funciones.screenshot('g_editar location perfil mas de 255')
+
   });
 
   it("Guardar cambios y ver el error", () => {
@@ -48,6 +54,7 @@ context("Editar location en el perfil con más de 255 caracteres", () => {
       cy.get("button.gh-btn.gh-btn-blue.gh-btn-icon.gh-btn-red.ember-view")
       cy.wait(2000);
     });
-    
+    funciones.screenshot('g_editar location perfil mas de 255')
+
   });
 });

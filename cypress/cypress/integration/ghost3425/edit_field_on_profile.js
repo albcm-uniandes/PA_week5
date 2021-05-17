@@ -2,7 +2,6 @@ const baseUrl = Cypress.config('baseUrl') || "http://localhost:2368/ghost"
 const util = require('../login.js')
 const funciones = require('../funciones')
 
-
 const cookieSessionName = Cypress.env('cookieSessionName') || "ghost-admin-api-session"
 
 context('Editar location en el perfil', () => {
@@ -49,5 +48,6 @@ context('Editar location en el perfil', () => {
             cy.wait(2000)
          })
          funciones.screenshot('g_editar location perfil')
-        })
+
+    })
 })

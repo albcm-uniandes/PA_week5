@@ -86,8 +86,20 @@ Por ejemplo para GHOST 3.3 ingresar a la carpeta usando el comando "cd ghost33" 
 
 # Pruebas de regresión visual
 Las pruebas efectuadas en la regresion visual son 
+# Pruebas de regresión visual
+Las pruebas efectuadas en la regresion visual son 
+
 - BUSCAR POST
+Se busca hallar diferencias visuales en la funcionalidad que permite realizar busqueda de contenidos
+
 - CREAR POSTS YOUTUBE
+Se busca hallar diferencias visuales en la funcionalidad que permite Crear post en el blog con contenido adjunto de youtube
+
 - INVITAR NUEVO USUARIO
+Se busca hallar diferencias visuales en la funcionalidad que permite añadir nuevos miembros al staff del sitio
+
 - RENOMBRAR SITIO
+Se busca hallar diferencias visuales en la funcionalidad que permite permite cambiar el nombre de nuestro sitio
+
 - CAMBIAR ZONA HORARIA
+Se busca hallar diferencias visuales en la funcionalidad que permite cambiar la zona horaria por defecto del sitio

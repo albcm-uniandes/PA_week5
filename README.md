@@ -51,7 +51,7 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 | 12. Borrar pagina                                    | Juan Camilo Acevedo|  Gestionar pagina|eliminarPagina.feature Eliminar_pagina.js| 
 | 13. Borrar post de la lista de publicados, el más reciente    | Giovanny Briceño |  Gestionar post  | g_borrarpost.spec.js borrarpost.feature|
 | 14. Adicionar un link de navegación al Diseño       | Giovanny Briceño |   Gestionar diseño  | g_adicionarLinkNavegar.js           | 
-| 15. Borrar un link de navegacion en la zona de Diseño           | Giovanny Briceño |  Gestionar diseño|       | 
+| 15. Crear Posts adicionando link youtube           | Giovanny Briceño |  Gestionar diseño|       | g2_crearpost_youtube.spec.js
 | 16. Crear una integración                           | Cesar Chembi     |     Crear integración|Crear_Integracion.feature Crear_Integracion.js|
 | 17. Editar Tag y publicarlo                         | Cesar Chembi     |    Gestionar tag|Editar_Publicar_Tag.feature Editar_Publicar_Tag.js| 
 | 18. Renombrar titulo del sitio                      | Juan Camilo Acevedo     | Gestionar diseño | renameSite.feature renameSite.js|

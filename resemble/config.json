@@ -1,0 +1,40 @@
+{
+    "foldersForComparison" : [
+    {
+        "scenario" : "Crear post YouTube",
+        "from": "C:/resemble/escenarios/g1_crearpost_youtube.spec.js/",
+        "to": "C:/resemble/escenarios/g2_crearpost_youtube.spec.js/",
+        "compared": "../resultados/",
+        "id": 0
+    },
+    {
+        "scenario" : "Renombrar sitio",
+        "from": "C:/resemble/escenarios/g1_renameSite.js/",
+        "to": "C:/resemble/escenarios/g2_renameSite.js/",
+        "compared": "../resultados/",
+        "id": 1
+    },
+    {
+        "scenario" : "Cambiar zona horaria",
+        "from": "C:/resemble/escenarios/g1_renameSite.js/",
+        "to": "C:/resemble/escenarios/g2_renameSite.js/",
+        "compared": "../resultados/",
+        "id": 2
+    },
+    {
+        "scenario" : "Invitar nuevo usuario",
+        "from": "C:/resemble/escenarios/g1_Invitar_Nuevo_Usuario_version3.30.0.js/",
+        "to": "C:/resemble/escenarios/g2_Invitar_Nuevo_Usuario_version3.42.5.js/",
+        "compared": "../resultados/",
+        "id": 3
+    },
+	{
+		"scenario" : "Buscar post",
+		"from": "C:/resemble/escenarios/g1_buscarPost/",
+		"to": "C:/resemble/escenarios/g2_buscarPost/",
+		"compared": "../resultados/",
+		"id": 4
+	}
+    ],
+    "reporte":"../resultados/"
+}

@@ -1,0 +1,19 @@
+Feature: Edit profile information
+
+  Background:
+    Given I navigate to page "http://localhost:2368/ghost/#/signin"
+    When I enter "machado.albeiro@gmail.com" into input field having id "ember8"
+    * I enter "0123456789" into input field having id "ember10"
+    * I click on element having id "ember12"    
+    Then I'm into the dashaboard admin 
+
+
+  @user1 @web
+  Scenario: As logged user I want to edit, my user location
+    Given I'm logged as "Albeiro Cuadrado"
+    When I'm into the dashaboard admin 
+    And I click on element having id "ember32"
+    And I click on element having id "ember65"
+    * I enter "x" into input field having id "user-location"
+    * I click on element having id "ember77"
+    Then I should see text "Saved"

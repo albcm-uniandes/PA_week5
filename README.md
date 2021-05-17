@@ -54,8 +54,8 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 | 15. Borrar un link de navegacion en la zona de Diseño           | Giovanny Briceño |  Gestionar diseño|       | 
 | 16. Crear una integración                           | Cesar Chembi     |     Crear integración|Crear_Integracion.feature Crear_Integracion.js|
 | 17. Editar Tag y publicarlo                         | Cesar Chembi     |    Gestionar tag|Editar_Publicar_Tag.feature Editar_Publicar_Tag.js| 
-| 18. Renombrar titulo del sitio                      | Juan Camilo Acevedo     | Gestionar diseño | renameSite.js|
-| 19. Editar el lenguaje de publicación               | Juan Camilo Acevedo     | Gestionar diseño | publicationLanguaje.js|
+| 18. Renombrar titulo del sitio                      | Juan Camilo Acevedo     | Gestionar diseño | renameSite.feature renameSite.js|
+| 19. Editar el lenguaje de publicación               | Juan Camilo Acevedo     | Gestionar diseño | publicationLanguaje.feature publicationLanguaje.js|
 | 20. Editar zona horaria                             | Juan Camilo Acevedo     | Gestionar diseño | siteTimeZone.js|
 
 

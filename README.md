@@ -66,23 +66,22 @@ Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9c
 1. Haber realizado la instalación de KRAKEN ver https://github.com/TheSoftwareDesignLab/KrakenMobile
 2. Tener instalado las versiones adecuadas de Ghost
 3. Ejecutar la versión correspondiente de Ghost ingreseando al archivo del proyecto y ejecutar al comando ghost start
-GHOST 3.3
-- cd ghost33
-- ghost start
-
-GHOST 3.42.5
+Por ejemplo para GHOST 3.3 ingresar a la carpeta usando el comando "cd ghost33" y luego dar la instrucción "ghost start"
 
 ## Pasos
 1. Copiar la carpeta carpeta kraken/proyecto, dentro de la carpeta raiz donde realizó el setup de kraken
-3. escriba el siguiente comando en una terminal ubicado en la carpeta raiz del proyecto creado __bundle exec kraken-mobile run__
+2. Escriba el siguiente comando en una terminal ubicado en la carpeta raiz del proyecto creado __bundle exec kraken-mobile run__
 
 # Como ejecutar este ejercicio para Cypress
 ## Pasos previos
 1. Haber realizado la instalación de CYPRESS ver https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
+2. Tener instalado las versiones adecuadas de Ghost
+3. Ejecutar la versión correspondiente de Ghost ingreseando al archivo del proyecto y ejecutar al comando ghost start
+Por ejemplo para GHOST 3.3 ingresar a la carpeta usando el comando "cd ghost33" y luego dar la instrucción "ghost start"
 
 ## Pasos
-1 Ubiquese dentro del directorio __/cypress__ de este repositorio
-2 Ejecutar en una terminal el comando  __cypress run --headed__
+1. Ubiquese dentro del directorio __/cypress__ de este repositorio
+2. Ejecutar en una terminal el comando  __cypress run --headed__
  
 
 # Pruebas de regresión visual

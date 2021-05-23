@@ -17,7 +17,7 @@ describe('Crear y publicar un post tiempo despues', () => {
 			funciones.login('g_publica_post_schedule')
 				
 			dato = funciones.getjsonrta(i)
-			console.log(dato.titulo +" "+dato.contenido)
+			//console.log(dato.titulo +" "+dato.contenido)
 			
 			cy.get('li.gh-nav-list-new.relative').click()
 			

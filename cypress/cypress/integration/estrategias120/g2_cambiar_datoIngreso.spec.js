@@ -8,6 +8,7 @@ describe('Cambiar el nombre del usuario autenticado ', () => {
 		
     })
 	it('Variar los valores del campo de nombre Faker', ()=>{
+		
 		funciones.login('g_cambiar nombre autenticado ')
 		
 		cy.get('li.gh-nav-list-new.relative').click()

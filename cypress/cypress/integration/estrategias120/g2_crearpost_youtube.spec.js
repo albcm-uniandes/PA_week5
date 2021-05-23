@@ -14,7 +14,7 @@ describe('Crear post con url youtube', () => {
 		it('Ingresa url de youtube', ()=>{
 
 			dato = funciones.getjsonrta(i)
-			console.log(dato.titulo +" "+dato.contenido)
+			//console.log(dato.titulo +" "+dato.contenido)
 			
 			funciones.login('g_publica_post_schedule_youtube')
 			

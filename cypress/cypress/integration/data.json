@@ -1,5 +1,5 @@
 {
-    "urllogin":"http://localhost:2369/ghost/#/signin",
+    "urllogin":"http://localhost:2369/ghost/#/signin", 
     "urlpostupdate":"http://localhost:2369/ghost/#/posts?order=updated_at%20desc",
     "urlpostsckedule":"http://localhost:2369/ghost/#/posts?order=updated_at%20desc&type=scheduled",
     "password": "nohayclave1",

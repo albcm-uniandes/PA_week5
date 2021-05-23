@@ -120,6 +120,6 @@ Los archivos de pruebas se encuentran en cypress\cypress\integracion\estrategias
 Para la estrategia de pool de datos se creo un conjunto de objetos JSON en la herramienta Mockaroo con el siguiente enlace:
 https://api.mockaroo.com/api/7568f7a0?count=20&key=5849ce80 
 
-
+En el archivo ./funciones se realiza su uso. 
 
 

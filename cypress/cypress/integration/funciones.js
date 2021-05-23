@@ -1,5 +1,6 @@
 const data = require('./data')
 const faker = require('faker')
+const dataApriori = require('./datosescenarios')
 
 let contador = 1
 let jsonrta 
@@ -88,4 +89,9 @@ export function generarFaker(){
                     
     
     
+}
+
+export function datosApriori(indice){
+    return dataApriori[indice]
+
 }

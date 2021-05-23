@@ -103,3 +103,23 @@ Se busca hallar diferencias visuales en la funcionalidad que permite permite cam
 
 - CAMBIAR ZONA HORARIA
 Se busca hallar diferencias visuales en la funcionalidad que permite cambiar la zona horaria por defecto del sitio
+
+
+# Estrategias de pruebas
+Las estrategias usadas para los 120 escenarios incorporan :
+
+- Apriori
+- Aleatorio 
+- Pseudo aleatorio 
+
+Se adjunta archivo () donde se especifica el listado de las 120 pruebas realizadas con las diferentes estrategias . 
+
+
+Los archivos de pruebas se encuentran en cypress\cypress\integracion\estrategias120
+
+Para la estrategia de pool de datos se creo un conjunto de objetos JSON en la herramienta Mockaroo con el siguiente enlace:
+https://api.mockaroo.com/api/7568f7a0?count=20&key=5849ce80 
+
+
+
+

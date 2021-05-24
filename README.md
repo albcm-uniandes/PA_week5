@@ -114,13 +114,15 @@ Las estrategias usadas para los 120 escenarios incorporan :
   
 - Aleatorio 
     Se generan datos usando directamente Faker en el momento de la ejecución.
-    Por ejemplo, los escenarios con campos vacios e inyecciones sql, se toma de los json: empty_data.json o sql_injection.js, para obtener los datos apriori, pero de manera aleatoria en tiempo de ejecución
+    
 
 - Pseudo aleatorio 
     Se genero un conjunto de datos en Mockaroo (url rest) que son consumidos en tiempo de ejecución en las casos de prueba. 
     
     Los enlaces de Mockaroo se adicionaron en el archivo cypress\cypress\integracion\data.json y se hace uso de ellos en archivo 
     cypress\cypress\integracion\funciones.json
+    
+    Además, Por ejemplo, los escenarios con campos vacios e inyecciones sql, se toma de los json: empty_data.json o sql_injection.js, para obtener los datos apriori, pero de manera aleatoria en tiempo de ejecución
 
 
 Los archivos de pruebas y sus escenarios se encuentran en ## cypress\cypress\integracion\estrategias120.

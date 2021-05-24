@@ -132,3 +132,5 @@ La especificacion de los 120 escenarios se encuentrar descritos en el documento 
 
 Para el uso de Faker ejecute:
     npm i faker
+
+Las incidencias se encuentran en la sección Issues de este proyecto Github

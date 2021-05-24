@@ -111,9 +111,10 @@ Las estrategias usadas para los 120 escenarios incorporan :
 
 - Apriori: 
     Se generaron con mockaroo unos datos que se guardaron en el archivo datosescenarios.json y se consumieron en algunos de los casos de prueba. 
-
+  
 - Aleatorio 
     Se generan datos usando directamente Faker en el momento de la ejecución.
+    Por ejemplo, los escenarios con campos vacios e inyecciones sql, se toma de los json: empty_data.json o sql_injection.js, para obtener los datos apriori, pero de manera aleatoria en tiempo de ejecución
 
 - Pseudo aleatorio 
     Se genero un conjunto de datos en Mockaroo (url rest) que son consumidos en tiempo de ejecución en las casos de prueba. 
@@ -131,3 +132,5 @@ La especificacion de los 120 escenarios se encuentrar descritos en el documento 
 
 Para el uso de Faker ejecute:
     npm i faker
+
+Las incidencias se encuentran en la sección Issues de este proyecto Github

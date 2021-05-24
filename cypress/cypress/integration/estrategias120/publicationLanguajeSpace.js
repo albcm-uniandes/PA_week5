@@ -27,7 +27,7 @@ context('Actions', () => {
     cy.get('.gh-setting-last .gh-setting-content .ember-text-field').first().clear({ force: true })
     cy.wait(2000)
 
-    cy.get('.gh-setting-last .gh-setting-content .ember-text-field').first().type(data.space,{ force: true })
+    cy.get('.gh-setting-last .gh-setting-content .ember-text-field').first().type(faker.random.arrayElement([' ', '      ','            ','     ','\n','\t']),{ force: true })
     cy.wait(2000)
   })
 

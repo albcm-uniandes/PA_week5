@@ -26,7 +26,7 @@ context('Actions', () => {
     cy.wait(2000)
     cy.get('input[name="general[password]"]').clear({ force: true })
     cy.wait(2000)
-    cy.get('input[name="general[password]"]').type(data.passwordPrivate, { force: true })
+    cy.get('input[name="general[password]"]').type(faker.random.arrayElement(['abcd1234', '1234abcd','password','contrasena','123456789','esto es una clave']), { force: true })
     cy.wait(2000)
   })
 

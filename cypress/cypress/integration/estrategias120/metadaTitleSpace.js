@@ -27,7 +27,7 @@ context('Actions', () => {
     cy.get('input[id="metaTitle"]').first().clear({ force: true })
     cy.wait(2000)
 
-    cy.get('input[id="metaTitle"]').type(data.space, { force: true })
+    cy.get('input[id="metaTitle"]').type(faker.random.arrayElement([' ', '      ','            ','     ','\n','\t']), { force: true })
     cy.wait(2000)
   })
 

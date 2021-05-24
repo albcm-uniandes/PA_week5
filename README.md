@@ -108,18 +108,21 @@ Se busca hallar diferencias visuales en la funcionalidad que permite cambiar la 
 # Estrategias de pruebas
 Las estrategias usadas para los 120 escenarios incorporan :
 
-- Apriori
+- Apriori: 
+    Se generaron con mockaroo unos datos que se guardaron en el archivo datosescenarios.json y se consumieron en algunos de los casos de prueba. 
+
 - Aleatorio 
+    Se generan datos usando directamente Faker en el momento de la ejecución.
+
 - Pseudo aleatorio 
+    Se genero un conjunto de datos en Mockaroo que son consumidos en tiempo de ejecución en las casos de prueba. 
+    Mockaroo enlace:
+        https://api.mockaroo.com/api/7568f7a0?count=20&key=5849ce80 
 
-Se adjunta archivo () donde se especifica el listado de las 120 pruebas realizadas con las diferentes estrategias . 
+Los archivos de pruebas y sus escenarios se encuentran en cypress\cypress\integracion\estrategias120:
 
-
-Los archivos de pruebas se encuentran en cypress\cypress\integracion\estrategias120
-
-Para la estrategia de pool de datos se creo un conjunto de objetos JSON en la herramienta Mockaroo con el siguiente enlace:
-https://api.mockaroo.com/api/7568f7a0?count=20&key=5849ce80 
-
-En el archivo ./funciones se realiza su uso. 
+        https://uniandes-my.sharepoint.com/:x:/g/personal/g_briceno_uniandes_edu_co/EfX8kgJujqdLlcnX3-VzD9YB4TT2_tRGJ3WJbpl2pm3KZg?e=splySs
 
 
+Para el uso de Faker ejecute:
+    npm i faker

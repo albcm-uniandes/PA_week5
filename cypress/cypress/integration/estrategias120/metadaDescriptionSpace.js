@@ -27,7 +27,7 @@ context('Actions', () => {
     cy.get('textarea[id="metaDescription"]').first().clear({ force: true })
     cy.wait(2000)
 
-    cy.get('textarea[id="metaDescription"]').type(data.space, { force: true })
+    cy.get('textarea[id="metaDescription"]').type([' ', '      ','            ','     ','\n','\t']), { force: true })
     cy.wait(2000)
   })
 

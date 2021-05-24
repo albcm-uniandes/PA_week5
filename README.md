@@ -129,6 +129,9 @@ La especificacion de los 120 escenarios se encuentrar descritos en el documento 
 
         https://uniandes-my.sharepoint.com/:x:/g/personal/g_briceno_uniandes_edu_co/EfX8kgJujqdLlcnX3-VzD9YB4TT2_tRGJ3WJbpl2pm3KZg?e=splySs
 
+o accede desde aquí
+[Generación aleatoria de datos Week 7
+](https://github.com/albcm-uniandes/PA_week5/wiki/Estrategias-de-generaci%C3%B3n-aleatoria-de-datos)
 
 Para el uso de Faker ejecute:
     npm i faker

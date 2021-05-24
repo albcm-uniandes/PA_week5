@@ -91,6 +91,61 @@ export function generarFaker(){
     
 }
 
+export function generarFakerCasoMeta(){
+    var datos = []
+    datos.push({
+        titulo: faker.lorem.sentence(),
+        contenido: faker.lorem.text() ,
+        titMeta: faker.lorem.sentence(), 
+        conMeta: faker.lorem.text(),
+        url: "https://www.google.com/"  })    
+    datos.push({
+        titulo: null,
+        contenido: faker.lorem.text() ,
+        titMeta: faker.lorem.sentence(), 
+        conMeta: faker.lorem.text(),
+        url: "https://www.google.com/"  })    
+    datos.push({
+        titulo: faker.lorem.sentence(),
+        contenido: null ,
+        titMeta: faker.lorem.sentence(), 
+        conMeta: faker.lorem.text(),
+        url: "https://www.google.com/"  })    
+                
+    datos.push({
+        titulo: faker.lorem.sentence(),
+        contenido: faker.lorem.text() ,
+        titMeta: null, 
+        conMeta: faker.lorem.text(),
+        url: "https://www.google.com/"  })    
+    datos.push({
+        titulo: faker.lorem.sentence(),
+        contenido: faker.lorem.text() ,
+        titMeta: faker.lorem.sentence(), 
+        conMeta: null,
+        url: "https://www.google.com/"  })    
+    datos.push({
+        titulo: faker.lorem.sentence(),
+        contenido: faker.lorem.text() ,
+        titMeta: null, 
+        conMeta: null,
+        url: "https://www.google.com/"  })    
+    datos.push({
+        titulo: faker.lorem.sentence(),
+        contenido: faker.lorem.text() ,
+        titMeta: faker.lorem.sentence(), 
+        conMeta: faker.lorem.text(),
+        url: null  })    
+    datos.push({
+        titulo: faker.lorem.sentence(),
+        contenido: faker.lorem.text() ,
+        titMeta: faker.lorem.sentence(), 
+        conMeta: faker.lorem.text(),
+        url: 'http://nohay.com'  })    
+    jsonrta = datos
+    console.log (jsonrta)
+    
+}
 export function datosApriori(indice){
     return dataApriori[indice]
 

@@ -78,11 +78,11 @@ export function generarFaker(){
     datos.push({
         titulo: faker.lorem.word(),
         contenido: faker.lorem.text() ,
-        url: "https://www.youtube.com/watch?v="+faker.random.word()  })    
+        url: "htts://www.youtube.com/watch?v="+faker.random.word()  })    
     datos.push({
         titulo: null,
         contenido: faker.lorem.text() ,
-        url: "https://www.youtube.com/watch?v="+faker.random.word()  })    
+        url: "hts://www.youtube.com/watch?v="+faker.random.word()  })    
         
     jsonrta = datos
     console.log (jsonrta)
@@ -141,7 +141,7 @@ export function generarFakerCasoMeta(){
         contenido: faker.lorem.text() ,
         titMeta: faker.lorem.sentence(), 
         conMeta: faker.lorem.text(),
-        url: 'http://nohay.com'  })    
+        url: 'htt://nohay.com'  })    
     jsonrta = datos
     console.log (jsonrta)
     

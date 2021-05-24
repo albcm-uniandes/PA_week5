@@ -122,7 +122,7 @@ Las estrategias usadas para los 120 escenarios incorporan :
     cypress\cypress\integracion\funciones.json
 
 
-Los archivos de pruebas y sus escenarios se encuentran en ##cypress\cypress\integracion\estrategias120.
+Los archivos de pruebas y sus escenarios se encuentran en ## cypress\cypress\integracion\estrategias120.
 
 La especificacion de los 120 escenarios se encuentrar descritos en el documento que se encuentra en el siquiente enlace. 
 

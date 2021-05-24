@@ -17,17 +17,13 @@ context('Actions', () => {
 
   it('Configuraciones generales', () => {
     cy.get('[href="#/settings/general/"]').click({ force: true })
-    cy.wait(2000)
   })
 
-  it('Cambier el idioma de publicación', () => {
-    cy.get('.gh-setting-last .gh-setting-action .gh-btn').contains('Expand').first().click({ force: true })
+  it('Cambiar los metadatos para los buscadores', () => {
+    cy.get('.gh-setting-first .gh-setting-action .gh-btn').contains('Expand').first().click({ force: true })
     cy.wait(2000)
 
-    cy.get('.gh-setting-last .gh-setting-content .ember-text-field').first().clear({ force: true })
-    cy.wait(2000)
-
-    cy.get('.gh-setting-last .gh-setting-content .ember-text-field').first().type(faker.random.arrayElement(['es', 'en','de','az','fa','fr','ko']),{ force: true })
+    cy.get('.gh-setting-first .gh-setting-content .ember-text-field').last().clear({ force: true })
     cy.wait(2000)
   })
 
@@ -36,4 +32,3 @@ context('Actions', () => {
     cy.wait(2000)
   })
 })
-  

@@ -26,7 +26,7 @@ context('Actions', () => {
     cy.get('.gh-setting-first .gh-setting-content .ember-text-field').last().clear({ force: true })
     cy.wait(2000)
 
-    cy.get('.gh-setting-first .gh-setting-content .ember-text-field').last().type(data.space,{ force: true })
+    cy.get('.gh-setting-first .gh-setting-content .ember-text-field').last().type([' ', '      ','            ','     ','\n','\t']),{ force: true })
     cy.wait(2000)
   })
 

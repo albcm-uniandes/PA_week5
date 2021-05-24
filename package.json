@@ -1,0 +1,22 @@
+{
+  "name": "pa_week5",
+  "description": "Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto con Kraken como con la herramienta de su elección y siguiendo los patrones vistos, (ii) listado de funcionalidades y escenarios seleccionados para pruebas, (iii) resumen de pros y contras de las herramientas en la wiki del repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albcm-uniandes/PA_week5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albcm-uniandes/PA_week5/issues"
+  },
+  "homepage": "https://github.com/albcm-uniandes/PA_week5#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}

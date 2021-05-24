@@ -28,14 +28,14 @@ context('Actions', () => {
       cy.wait(2000)
       
       cy.get('.gh-setting-first.gh-setting-last .ember-text-field').first()
-      .type(data.space, { force: true })
+      .type(faker.random.arrayElement([' ', '      ','            ','     ','\n','\t']), { force: true })
       cy.wait(2000)
 
       cy.get('.ember-text-field').last().clear({ force: true })
       cy.wait(2000)
 
       cy.get('.gh-setting-first.gh-setting-last .ember-text-field').last()
-      .type(data.space, { force: true })
+      .type(faker.random.arrayElement(['https://twitter.com/usuario', 'https://twitter.com/usuario2','https://twitter.com/usuario3','https://twitter.com/usuario4','https://twitter.com/usuario5','https://twitter.com/usuario6']), { force: true })
       cy.wait(2000)
     })
 

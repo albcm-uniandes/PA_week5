@@ -16,18 +16,14 @@ context('Actions', () => {
   })
 
   it('Configuraciones generales', () => {
-    cy.get('[href="#/settings/general/"]').click({ force: true })
-    cy.wait(2000)
+    cy.get('[href="#/settings/design/"]').click({ force: true })
   })
 
-  it('Cambier el idioma de publicación', () => {
-    cy.get('.gh-setting-last .gh-setting-action .gh-btn').contains('Expand').first().click({ force: true })
+  it('Cambiar el home del sitio', () => {
+    cy.get('.gh-blognav-url .ember-view').first().clear({ force: true })
     cy.wait(2000)
 
-    cy.get('.gh-setting-last .gh-setting-content .ember-text-field').first().clear({ force: true })
-    cy.wait(2000)
-
-    cy.get('.gh-setting-last .gh-setting-content .ember-text-field').first().type(faker.random.arrayElement(['es', 'en','de','az','fa','fr','ko']),{ force: true })
+    cy.get('.gh-blognav-url .ember-view').first().type(faker.lorem.lines(2), { force: true })
     cy.wait(2000)
   })
 
@@ -36,4 +32,3 @@ context('Actions', () => {
     cy.wait(2000)
   })
 })
-  

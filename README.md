@@ -113,6 +113,7 @@ Las estrategias usadas para los 120 escenarios incorporan :
     Se generaron con mockaroo unos datos que se guardaron en el archivo datosescenarios.json y se consumieron en algunos de los casos de prueba. 
 
 - **Aleatorio** 
+
     Se generan datos usando directamente Faker en el momento de la ejecución.
 
 - **Pseudo aleatorio** 
@@ -120,6 +121,8 @@ Las estrategias usadas para los 120 escenarios incorporan :
     
     Los enlaces de Mockaroo se adicionaron en el archivo cypress\cypress\integracion\data.json y se hace uso de ellos en archivo 
     cypress\cypress\integracion\funciones.json
+    
+    Además, Por ejemplo, los escenarios con campos vacios e inyecciones sql, se toma de los json: empty_data.json o sql_injection.js, para obtener los datos apriori, pero de manera aleatoria en tiempo de ejecución
 
 
 Los archivos de pruebas y sus escenarios se encuentran en **cypress\cypress\integracion\estrategias120.**
@@ -128,8 +131,13 @@ La especificacion de los 120 escenarios se encuentrar descritos en el documento 
 
     https://uniandes-my.sharepoint.com/:x:/g/personal/g_briceno_uniandes_edu_co/EfX8kgJujqdLlcnX3-VzD9YB4TT2_tRGJ3WJbpl2pm3KZg?e=splySs
 
+o accede desde aquí
+[Generación aleatoria de datos Week 7
+](https://github.com/albcm-uniandes/PA_week5/wiki/Estrategias-de-generaci%C3%B3n-aleatoria-de-datos)
 
 Para el uso de Faker ejecute:
     npm i faker
 
 Las incidencias encontradas se registraron en el repositorio con el prefijo *"Incidencias datos aleatorios caso #:"*
+
+Las incidencias se encuentran en la sección Issues de este proyecto Github

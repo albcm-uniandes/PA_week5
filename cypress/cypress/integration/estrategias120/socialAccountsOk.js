@@ -35,7 +35,7 @@ context('Actions', () => {
       cy.wait(2000)
 
       cy.get('.gh-setting-first.gh-setting-last .ember-text-field').last()
-      .type(data.twitter1, { force: true })
+      .type(faker.random.arrayElement([' ', '      ','            ','     ','\n','\t']), { force: true })
       cy.wait(2000)
     })
 

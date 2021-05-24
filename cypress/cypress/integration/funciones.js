@@ -95,3 +95,26 @@ export function datosApriori(indice){
     return dataApriori[indice]
 
 }
+
+
+
+
+/**
+ * Metodo que consume una estructura de datos JSON que se aloja en Mockaroo con datos básicos filtrados por url
+ * { titulo     :"",
+ *   contenido  :"" 
+ * }
+ * Y otros datos para las diferentes pruebas
+ */
+export function consumeRestUrl(url){
+    
+    cy.request('GET', url).then ((respuesta) =>{
+        expect(respuesta.status).equal(200)
+        console.log(respuesta.body)
+        jsonrta = respuesta.body
+       
+        
+    });
+    
+
+}

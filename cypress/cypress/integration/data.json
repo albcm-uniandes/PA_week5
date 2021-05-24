@@ -9,5 +9,12 @@
     "prueba3": "Cambiar titulo sitio",
     "prueba4": "Cambiar redes sociales",
     "prueba5": "Sitio privado",
-    "prueba6": "Editar perfil mas de 255"
+    "prueba6": "Editar perfil mas de 255",
+	"urlbase":"http://localhost:2369/ghost/",
+	"crearPagina":"https://api.mockaroo.com/api/48c77990?count=3&key=80e44d20",
+	"crearPagina1":"https://api.mockaroo.com/api/93b78a00?count=5&key=80e44d20",
+	"invitarUsuario":"https://api.mockaroo.com/api/a54e4400?count=4&key=80e44d20",
+	"crearIntegracion":"https://api.mockaroo.com/api/e1ec6230?count=3&key=80e44d20",
+	"crearIntegracion1":"https://api.mockaroo.com/api/9ee34bd0?count=3&key=80e44d20",
+	"crearIntegracion2":"https://api.mockaroo.com/api/e4f05bd0?count=6&key=80e44d20"
 }

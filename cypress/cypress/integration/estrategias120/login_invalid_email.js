@@ -26,7 +26,7 @@ context('Login & log out: Invalid login email', () => {
             cy.wait(1000);
         })
         cy.get('form').within(($form) => {
-            cy.get('input[name="identification"]').type(`${faker.lorem.text()}`, {force: true})
+            cy.get('input[name="identification"]').type(`${faker.lorem.text()}@gmail.com`, {force: true})
             cy.get('input[name="password"]').type(password, {force: true})
             cy.root().submit();
             cy.url().should('eq', loginUrl)

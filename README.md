@@ -8,8 +8,9 @@
 A continuación se describe el release que incluye:
 1. Artefactos de código, la descripción e indicaciones de ejecución se encuentran en este readme, dependiendo la estrategia a reproducir
 2. El archivo final de la estrategía solicitada para la semana 8 se encuentra en la carpeta **release/estrategia** de este repositorio con el nombre **Estrategia.pdf** junto a los soportes que se referencian en ese documento.
-3. El listado de incidencias se puede ver en la sección Issues, donde se describen 22 issues encontrado en la versión 3.42.5 de Ghost, mediante varias de las estrategias 
-4. El video de 15 minutos con presentación de gerencia describiendo la estrategia y los resultados se encuentra en la carpeta **release** de este repositorio con el nombre **Video**
+3. El repositorio incluye el inventario de pruebas manuales: dentro de la carpeta **release/estrategia** con el nombre **inventario.xlsx**
+4. El listado de incidencias se puede ver en la sección Issues, donde se describen 22 issues encontrado en la versión 3.42.5 de Ghost, mediante varias de las estrategias 
+5. El video de 15 minutos con presentación de gerencia describiendo la estrategia y los resultados se encuentra en la carpeta **release** de este repositorio con el nombre **Video**
 
 # Funcionalidades Bajo prueba
 

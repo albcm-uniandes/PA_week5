@@ -12,6 +12,11 @@ A continuación se describe el release que incluye:
 4. El listado de incidencias se puede ver en la sección Issues, donde se describen 22 issues encontrado en la versión 3.42.5 de Ghost, mediante varias de las estrategias 
 5. El video de 15 minutos con presentación de gerencia describiendo la estrategia y los resultados se encuentra en la carpeta **release** de este repositorio con el nombre **Video**
 
+# REVISAR
+**A continuación se muestra en la wiki**
+[Información detallada de estrategía usada en cada escenario
+](https://github.com/albcm-uniandes/PA_week5/wiki/Detalle-de-escenarios)
+
 # Funcionalidades Bajo prueba
 
 1. Busqueda

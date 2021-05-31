@@ -1,12 +1,15 @@
-# Pruebas E2E
-Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto con Kraken como con la herramienta de su elección y siguiendo los patrones vistos, (ii) listado de funcionalidades y escenarios seleccionados para pruebas, (iii) resumen de pros y contras de las herramientas en la wiki del repo
-
 # Integrantes
 - ALBEIRO JOSE CUADRADO MACHADO (a.cuadrado@uniandes.edu.co)
 - JUAN CAMILO ACEVEDO BEDOYA (j.acevedob@uniandes.edu.co)
 - CESAR ALBERTO CHEMBI VERGARA (c.chembi@uniandes.edu.co)
 - GIOVANNY ALEXANDER BRICEÑO RIVEROS (g.briceno@uniandes.edu.co)
 
+# RELEASE 1.0 Proyecto final
+A continuación se describe el release que incluye:
+1. Artefactos de código, la descripción e indicaciones de ejecución se encuentran en este readme, dependiendo la estrategia a reproducir
+2. El archivo final de la estrategía solicitada para la semana 8 se encuentra en la carpeta **release/estrategia** de este repositorio con el nombre **Estrategia.pdf** junto a los soportes que se referencian en ese documento.
+3. El listado de incidencias se puede ver en la sección Issues, donde se describen 22 issues encontrado en la versión 3.42.5 de Ghost, mediante varias de las estrategias 
+4. El video de 15 minutos con presentación de gerencia describiendo la estrategia y los resultados se encuentra en la carpeta **release** de este repositorio con el nombre **Video**
 
 # Funcionalidades Bajo prueba
 
@@ -30,6 +33,11 @@ Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto 
 
 7. Gestionar diseño
 - Permite personalizar mediante esta funcionalidad el diseño del sitio
+
+
+# Pruebas E2E
+Repositorio que incluye (i) código de los 20 escenarios de prueba hechos tanto con Kraken como con la herramienta de su elección y siguiendo los patrones vistos, (ii) listado de funcionalidades y escenarios seleccionados para pruebas, (iii) resumen de pros y contras de las herramientas en la wiki del repo
+
 
 # Recursos
 Enlace a Dropbpx ( Videos, screenshots etc) https://www.dropbox.com/sh/7s5cxbn9cuwu6du/AABgVKLmjXEsf8HLtPvB7dPja?dl=0
@@ -86,8 +94,6 @@ Por ejemplo para GHOST 3.3 ingresar a la carpeta usando el comando "cd ghost33" 
 
 # Pruebas de regresión visual
 Las pruebas efectuadas en la regresion visual son 
-# Pruebas de regresión visual
-Las pruebas efectuadas en la regresion visual son 
 
 - BUSCAR POST
 Se busca hallar diferencias visuales en la funcionalidad que permite realizar busqueda de contenidos
@@ -105,7 +111,7 @@ Se busca hallar diferencias visuales en la funcionalidad que permite permite cam
 Se busca hallar diferencias visuales en la funcionalidad que permite cambiar la zona horaria por defecto del sitio
 
 
-# Estrategias de pruebas
+# Estrategias de pruebas con la generación de datos aleatorios
 
 Las estrategias usadas para los 120 escenarios incorporan :
 
